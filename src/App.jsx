@@ -74,11 +74,11 @@ Para manter a pelagem em dia, uma escovação semanal e trimming a cada 2 meses 
   const dogs =[akita, beagle, boxer, caneCorso, cocker, husckySibeirano, pastorBrancoSuico]
 
   return (
-    <>
+    <div className='container'>
       {dogs.map((dog)=>{
         return <Card key={dog.nome} item={dog}/>
       })}
-    </>
+    </div>
   )
 }
 
